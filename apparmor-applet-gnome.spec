@@ -10,6 +10,7 @@ URL:		http://forge.novell.com/modules/xfmod/project/?apparmor
 Source0:	apparmorapplet-gnome-%{version}.tar.gz
 BuildRequires:  libpanel-applet-2-devel
 BuildRequires:  libaudit-devel
+BuildRequires:  libglade2-devel
 BuildRequires:  pkgconfig
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
