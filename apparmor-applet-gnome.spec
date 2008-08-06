@@ -1,13 +1,13 @@
 Summary:	An AppArmor applet for Gnome
 Name:		apparmor-applet-gnome
-Version:	0.8
+Version:	0.9
 Epoch:		1
-Release:	%mkrel 2
+Release:	%mkrel 1
 License:	GPL
 Group:		Graphical desktop/GNOME
 URL:		http://forge.novell.com/modules/xfmod/project/?apparmor
 # upstream typo (missing -)
-Source0:	apparmorapplet-gnome-%{version}.tar.gz
+Source0:	apparmorapplet-gnome-%{version}.tar.bz2
 BuildRequires:  libpanel-applet-2-devel
 BuildRequires:  libaudit-devel
 BuildRequires:  libglade2-devel
