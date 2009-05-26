@@ -8,6 +8,7 @@ Group:		Graphical desktop/GNOME
 URL:		http://forge.novell.com/modules/xfmod/project/?apparmor
 # upstream typo (missing -)
 Source0:	apparmorapplet-gnome-%{version}.tar.bz2
+Patch0:		apparmorapplet-gnome-0.9-build-fix.patch
 BuildRequires:  libpanel-applet-2-devel
 BuildRequires:  libaudit-devel
 BuildRequires:  libglade2-devel
@@ -23,6 +24,7 @@ This package contains an AppArmor applet for Gnome.
 
 %prep
 %setup -q -n apparmorapplet-gnome-%{version}
+%patch0 -p1 
 
 %build
 %serverbuild
