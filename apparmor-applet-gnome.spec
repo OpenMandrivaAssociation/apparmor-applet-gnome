@@ -28,7 +28,7 @@ This package contains an AppArmor applet for Gnome.
 
 %build
 %serverbuild
-%configure2_5x
+%configure2_5x --libdir=%{_prefix}/lib
 %make
 
 %install
