@@ -2,7 +2,7 @@ Summary:	An AppArmor applet for Gnome
 Name:		apparmor-applet-gnome
 Version:	0.9
 Epoch:		1
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	GPL
 Group:		Graphical desktop/GNOME
 URL:		http://forge.novell.com/modules/xfmod/project/?apparmor
@@ -28,15 +28,13 @@ This package contains an AppArmor applet for Gnome.
 
 %build
 %serverbuild
-
-./configure --prefix=%{_prefix} --libexecdir=%{_libexecdir}
+%configure2_5x
 %make
 
 %install
 rm -rf %{buildroot}
 
 %{makeinstall_std}
-
 
 %clean
 rm -rf %{buildroot}
