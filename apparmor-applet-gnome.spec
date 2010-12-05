@@ -2,7 +2,7 @@ Summary:	An AppArmor applet for Gnome
 Name:		apparmor-applet-gnome
 Version:	0.9
 Epoch:		1
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPL
 Group:		Graphical desktop/GNOME
 URL:		http://forge.novell.com/modules/xfmod/project/?apparmor
