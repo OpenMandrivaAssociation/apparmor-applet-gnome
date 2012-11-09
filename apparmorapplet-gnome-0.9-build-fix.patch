@@ -1,0 +1,12 @@
+Index: apparmorapplet-gnome-0.9/src/apparmor-applet.c
+===================================================================
+--- apparmorapplet-gnome-0.9/src/apparmor-applet.c
++++ apparmorapplet-gnome-0.9/src/apparmor-applet.c	2009-05-26 11:19:05.000000000 -0400
+@@ -4,6 +4,7 @@
+ 
+ #include <glib.h>
+ #include <panel-applet.h>
++#include <libgnome/gnome-program.h>
+ #include <gtk/gtk.h>
+ #include <dbus/dbus.h>
+ #include <dbus/dbus-glib-lowlevel.h>
