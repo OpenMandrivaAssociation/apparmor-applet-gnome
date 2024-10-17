@@ -5,7 +5,7 @@ Epoch:		1
 Release:	%mkrel 6
 License:	GPL
 Group:		Graphical desktop/GNOME
-URL:		http://forge.novell.com/modules/xfmod/project/?apparmor
+URL:		https://forge.novell.com/modules/xfmod/project/?apparmor
 # upstream typo (missing -)
 Source0:	apparmorapplet-gnome-%{version}.tar.bz2
 Patch0:		apparmorapplet-gnome-0.9-build-fix.patch
