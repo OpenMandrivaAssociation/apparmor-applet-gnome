@@ -9,6 +9,11 @@ URL:		https://forge.novell.com/modules/xfmod/project/?apparmor
 # upstream typo (missing -)
 Source0:	apparmorapplet-gnome-%{version}.tar.bz2
 Patch0:		apparmorapplet-gnome-0.9-build-fix.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  libpanel-applet-2-devel
 BuildRequires:  libaudit-devel
 BuildRequires:  libglade2-devel
